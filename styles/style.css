@@ -1,3 +1,12 @@
 html * {
     font-family: 'Lato', sans-serif;
 }
+.top-nav {
+    background-color: #272a31;
+}
+.cl272 {
+    color: #272a31;
+}
+* {
+    border: 1px solid greenyellow;
+}
