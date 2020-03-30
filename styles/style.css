@@ -1,12 +1,75 @@
 html * {
     font-family: 'Lato', sans-serif;
 }
-.top-nav {
+.bcg-col272 {
     background-color: #272a31;
 }
 .cl272 {
     color: #272a31;
 }
-* {
-    border: 1px solid greenyellow;
+.cl524 {
+    color: #ec5242;
 }
+.bcg-col524 {
+    background-color: #ec5242;
+}
+.cld3 {
+    color: #d3d3d3;
+}
+.bcg-cold3 {
+    background-color: #d3d3d3;
+}
+.bgimg {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTchZ9riceevldA2IniBAo5Nfkw2z1mWtNZi43gI2Rh3ZstSUB6&usqp=CAU);
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.text-with-bcg {
+    font-size: 70px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/918-9qlPA4L.png);
+    -webkit-text-fill-color: transparent;
+    background-size: contain;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-with-bcg:nth-child(4),.text-with-bcg:nth-child(5) {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+[class="ml-5 pt-5"] p {
+    line-height: 65px;
+}
+.join {
+    width: 800px;
+    border: 3px solid white;
+}
+[class="join position-relative p-3 bcg-cold3 mb-0"] {
+    z-index: 9;
+}
+.circle {
+    bottom: 90px;
+    right: 365px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.date p:first-of-type {
+    font-weight: 900;
+}
+/* * {
+    border: 1px solid greenyellow;
+} */
