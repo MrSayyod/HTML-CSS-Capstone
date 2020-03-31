@@ -152,21 +152,6 @@ html {
   height: 150px;
 }
 
-/* .logo1 {
-    background-image: url(../images/hs.jpg);
-}
-.logo2 {
-    background-image: url(../images/barclays.png);
-}
-.logo3 {
-    background-image: url(../images/santander.jpg);
-}
-.logo4 {
-    background-image: url(../images/sc.png);
-}
-.logo5 {
-    background-image: url(../images/halifax.png);
-} */
 @media (max-width: 754px) {
   .circle {
     top: -40px;
@@ -218,7 +203,3 @@ html {
     bottom: 120px;
   }
 }
-
-/* * {
-    border: 1px solid greenyellow;
-} */
