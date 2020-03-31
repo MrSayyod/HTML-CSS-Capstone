@@ -1,5 +1,5 @@
 ## HTML-CSS-Capstone
-HTML &amp; CSS capstone project: Conference page by Microverse [Solo]
+HTML &amp; CSS capstone project: Conference page by Microverse [Solo].
 Created Conference page according to specifics of https://www.behance.net/gallery/29845175/CC-Global-Summit-2015.
 ![Capstone](/images/screenshot.png)
 
