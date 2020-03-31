@@ -1,0 +1,108 @@
+html * {
+    font-family: 'Lato', sans-serif;
+}
+.bcg-col272 {
+    background-color: #272a31;
+}
+.cl272 {
+    color: #272a31;
+}
+.cl524 {
+    color: #ec5242;
+}
+.bcg-col524 {
+    background-color: #ec5242;
+}
+.cld3 {
+    color: #d3d3d3;
+}
+.bcg-cold3 {
+    background-color: #d3d3d3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.text-with-bcg {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-with-bcg:nth-child(4),.text-with-bcg:nth-child(5) {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+[class="text-center ml-5 pt-5"] p {
+    line-height: 70px;
+}
+.join {
+    border: 3px solid gray;
+    margin: 0 auto;
+}
+[class="join container bg-white position-relative p-3 mb-0"] {
+    z-index: 9;
+}
+.circle {
+    bottom: 155px;
+    left: -10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.date a {
+    color: black;
+}
+.border-center {
+    width: 50px;
+    margin: 5px auto;
+    height: 3px;
+}
+.logo-info {
+    margin: auto 200px;
+}
+.place-for-logo {
+    border: 1px solid #d3d3d3;
+    background-color: #f4f5f6;
+    width: 500px;
+    margin: 0 auto;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+.past-summits {
+    border: 1px solid #d3d3d3;
+}
+.previous {
+    margin: 0 auto;
+}
+.previous-bg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    opacity: 0.6;
+}
+.previous-bg:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.paris {
+    background-image: url(../images/paris.jpg);
+}
+.New-York {
+    background-image: url(../images/new-york.jpg);
+}
+[class="flex-column position-absolute text-white text-center"] {
+    bottom: 70px;
+    left: 90px;
+}
+[class="flex-column position-absolute text-white text-center"] h4 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* * {
+    border: 1px solid greenyellow;
+} */
