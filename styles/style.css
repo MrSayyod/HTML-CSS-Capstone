@@ -114,6 +114,9 @@ html {
     width: 30px;
     height: 3px;
 }
+.more {
+    border: 1px solid #d3d3d3;
+}
 .logos ul {
     margin: 10px auto;
 }
