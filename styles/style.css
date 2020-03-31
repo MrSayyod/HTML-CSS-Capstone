@@ -1,6 +1,9 @@
 html * {
     font-family: 'Lato', sans-serif;
 }
+html {
+    margin: 0 auto;
+}
 .bcg-col272 {
     background-color: #272a31;
 }
@@ -52,8 +55,10 @@ html * {
 [class="ml-5 pt-5"] p {
     line-height: 65px;
 }
+.gen-join {
+    max-width: 800px;
+}
 .join {
-    width: 800px;
     border: 3px solid white;
 }
 [class="join position-relative p-3 bcg-cold3 mb-0"] {
@@ -61,7 +66,7 @@ html * {
 }
 .circle {
     bottom: 90px;
-    right: 365px;
+    right: -40px;
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -133,6 +138,48 @@ html * {
 }
 .logo5 {
     background-image: url(../images/halifax.png);
+}
+@media (max-width: 754px) {
+    .circle {
+        top: -40px;
+    }
+}
+@media (max-width: 767px) {
+    [class="text-with-bcg text-uppercase p-0 m-0"] {
+        font-size: 47px;
+    }
+    .circle {
+        bottom: 140px;
+    }
+    .space-for-plans {
+        margin: 0;
+    }
+    .plan {
+        width: auto;
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+        align-items: center;
+    }
+    .plan img {
+        margin-left: 15px;
+    }
+    [class="font-weight-bold cl524 mt-2"], .plan p {
+        text-align: left;
+    } 
+    [class="font-weight-bold cl524 mt-2"] {
+        width: 50%;
+        margin: 0 15px;
+    }
+}
+.plan p {
+    width: 100%;
+}
+
+@media (max-width: 846px) {
+    .circle {
+        bottom: 120px;
+    }
 }
 /* * {
     border: 1px solid greenyellow;
