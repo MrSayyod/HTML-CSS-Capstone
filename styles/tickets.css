@@ -65,113 +65,23 @@ td, th {
     transform: rotate(-90deg)
 }
 .for-lunch, .menu {
-    width: 800px
+    max-width: 800px
 }
 .menu {
     border: 1px solid #d3d3d3
 }
+@media screen and (max-width: 767px) {
+    .table, .menu {
+        width: 540px;
+    }
+    .for-tickets, .for-lunch {
+        width: 540px;
+    }
+    .step {
+        border-radius: 10px;
+    }
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
-.text-with-bcg {
-    font-size: 70px;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/I/918-9qlPA4L.png);
-    -webkit-text-fill-color: transparent;
-    background-size: contain;
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
-}
-.text-with-bcg:nth-child(4),.text-with-bcg:nth-child(5) {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-[class="ml-5 pt-5"] p {
-    line-height: 65px;
-}
-.join {
-    width: 800px;
-    border: 3px solid white;
-}
-[class="join position-relative p-3 bcg-cold3 mb-0"] {
-    z-index: 9;
-}
-.circle {
-    bottom: 90px;
-    right: 365px;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    z-index: 1;
-}
-.date p:first-of-type {
-    font-weight: 900;
-}
-.border-center {
-    width: 50px;
-    margin: 5px auto;
-    height: 3px;
-}
-.plan {
-    width: 250px;
-    background-color: hsl(0, 0%, 30%);
-}
-.plan:hover {
-    border: 1px solid white
-}
-.space-for-plans {
-    margin: auto 50px;
-}
-.plan-img {
-    width: 65px;
-    height: 65px;
-}
-.for-image::before {
-    content: "";
-    background-image: url(../images/chess.png);
-    background-position: center;
-    background-size: cover;
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    opacity: 0.5;
-    z-index: 0;
-}
-.for-image img {
-    z-index: 1;
-}
-.left-border {
-    width: 30px;
-    height: 3px;
-}
-.logos ul {
-    margin: 10px auto;
-}
-.bg-logo {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 150px;
-}
-.logo1 {
-    background-image: url(../images/hs.jpg);
-}
-.logo2 {
-    background-image: url(../images/barclays.png);
-}
-.logo3 {
-    background-image: url(../images/santander.jpg);
-}
-.logo4 {
-    background-image: url(../images/sc.png);
-}
-.logo5 {
-    background-image: url(../images/halifax.png);
-}
 /* * {
     border: 1px solid greenyellow;
 } */
