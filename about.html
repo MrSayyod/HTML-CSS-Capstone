@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav class="container-fluid px-0">
-        <div class="top-nav d-flex justify-content-end bcg-col272">
+        <div class="top-nav d-sm-none d-md-flex justify-content-end bcg-col272">
             <ul class="float-right d-flex">
                 <li class="mr-0"><a class="nav-link text-white" href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li class="mr-2 ml-0"><a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i></a></li>
@@ -26,7 +26,7 @@
                 <div class="d-md-none d-sm-flex ml-5">
                     <a href="#"><img src="images/menu-bar.png" alt=""></a>
                 </div>
-                <div class="d-flex justify-content-between ml-5">
+                <div class="d-flex justify-content-between d-sm-none d-md-flex ml-5">
                         <div class="img">
                             <img src="images/digital.png" alt="">
                         </div>
@@ -36,7 +36,7 @@
                         </div>
                 </div>
             </div>
-                <div class="mr-5 pt-2">
+                <div class="mr-5 pt-2 d-sm-none d-md-flex">
                     <ul class="d-flex justify-content-between m-0 p-0">
                         <li><a class="nav-link cl272" href="index.html">Home</a></li>
                         <li><a class="nav-link cl272" href="about.html">About</a></li>
@@ -56,7 +56,7 @@
             <p class="text-with-bcg cl524 text-uppercase p-0 m-0">Future of Banking</p>
             <div class="border-center bcg-col524 mb-5"></div>
         </div>
-        <div class="position-relative ml-5 mt-4">
+        <div class="position-relative ml-5 mt-4 gen-join">
         <div class="position-absolute circle bcg-col524"></div>
         <div class="join container bg-white position-relative p-3 mb-0">
             <p class="h5 py-2 px-3">
@@ -93,7 +93,7 @@
         <h4 class="d-flex justify-content-center my-3">See the past Bank Summits</h4>
         <div class="border-center bcg-col524 mb-5"></div>
         <p class="d-flex justify-content-center my-3">Take a look at the last two Bank Summits which took place in Paris and in New-York</p>
-        <div class="container-fluid d-flex justify-content-center previous py-3">
+        <div class="container-fluid d-flex flex-sm-column flex-md-row justify-content-center align-items-center previous py-3">
                 <div class="previous-bg paris position-relative p-0 m-3">
                     <div class="flex-column position-absolute text-white text-center">
                         <h4>2018</h4>
@@ -108,8 +108,22 @@
                 </div>
         </div>
     </section>
-    <footer class="container-fluid d-flex justify-content-around row pt-4 bcg-col272 text-white">
-        <div class="d-flex ml-5 col-3 mt-4">
+    <section class="partners container-fluid bcg-col272 text-white d-sm-block d-md-none">
+        <h3 class="d-flex justify-content-center pt-4 pb-2 mb-1">Partners</h3>
+        <div class="border-center bcg-col524 mb-5"></div>
+        <div class="d-flex logos pb-5 mt-n3">
+            <ul class="list-unstyled d-flex flex-wrap">
+                <li class="bg-logo logo1 mx-3 my-sm-3 my-md-0"><img src="images/hs.jpg" alt=""></li>
+                <li class="bg-logo logo2 mx-3 my-sm-3 my-md-0"><img src="images/barclays.png" alt=""></li>
+                <li class="bg-logo logo3 my-sm-3 my-md-0"><img src="images/santander.jpg" alt=""></li>
+                <li class="bg-logo logo4 mx-3 my-sm-3 my-md-0"><img src="images/sc.png" alt=""></li>
+                <li class="bg-logo logo5 mx-3 my-sm-3 my-md-0"><img src="images/halifax.png" alt=""></li>
+                <li class="bg-logo logo6  my-sm-3 my-md-0"><img src="images/db.png" alt=""></li>
+            </ul>
+        </div>
+    </section>
+    <footer class="container-fluid m-0 d-flex justify-content-around row pt-4 bcg-col272 text-white">
+        <div class="d-flex ml-5 col-sm-4 col-md-3 mt-4">
             <div>
                 <img src="images/digital.png" alt="">
             </div>
@@ -118,7 +132,7 @@
             <p class="h5 font-weight-bold text-uppercase">London 2020</p>
         </div>
     </div>
-        <div class="flex-column mr-5 col-7">
+        <div class="flex-column mr-5 col-sm-6 col-md-7">
             <p class="mb-1 p-0">Banking Summit London 2020. © All rights reserved</p>
             <p>We're committed to your privacy. Banking Summit uses the information you provide to us to contact you about upcoming and summits. You may unsubscribe from these communications at any time. We do not pass your details on to any 3rd parties. For more information, check out our <a href="#">Privacy Policy</a>.</p>
         </div>

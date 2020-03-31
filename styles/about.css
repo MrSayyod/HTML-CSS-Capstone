@@ -41,8 +41,8 @@ html * {
     z-index: 9;
 }
 .circle {
-    bottom: 155px;
-    left: -10px;
+    top: -35px;
+    left: 35px;
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -102,7 +102,51 @@ html * {
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
 }
-
+.border-center {
+    width: 50px;
+    margin: 5px auto;
+    height: 3px;
+}
+.logos ul {
+    margin: 10px auto;
+}
+ .bg-logo {
+    width: 200px;
+    height: 150px;
+}
+@media screen and (min-width: 768px) {
+    .circle {
+        top: -35px;
+        left: -35px;
+    }
+}
+@media screen and (max-width: 767px) {
+    [class="text-with-bcg cl524 text-uppercase p-0 m-0"] {
+        font-size: 47px;
+    }
+    .circle {
+        top: -35px;
+        left: 0;
+    }
+    [class="container-fluid m-0 d-flex justify-content-around row pt-4 bcg-col272 text-white"] {
+        background-color: #fff;
+    }
+    footer * {
+        color: black;
+    }
+}
+@media screen and (max-width: 748px) {
+    .circle {
+        top: -35px;
+        left: -25px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .circle {
+        top: -35px;
+        left: -35px;
+    }
+}
 /* * {
     border: 1px solid greenyellow;
 } */
