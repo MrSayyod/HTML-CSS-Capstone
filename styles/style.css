@@ -120,14 +120,11 @@ html {
 .logos ul {
     margin: 10px auto;
 }
-.bg-logo {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+ .bg-logo {
     width: 200px;
     height: 150px;
 }
-.logo1 {
+/*.logo1 {
     background-image: url(../images/hs.jpg);
 }
 .logo2 {
@@ -141,7 +138,7 @@ html {
 }
 .logo5 {
     background-image: url(../images/halifax.png);
-}
+} */
 @media (max-width: 754px) {
     .circle {
         top: -40px;
@@ -174,9 +171,12 @@ html {
         width: 50%;
         margin: 0 15px;
     }
-}
-.plan p {
-    width: 100%;
+    .plan p {
+        width: 100%;
+    }
+    /* .bg-logo {
+        width: 50%;
+    } */
 }
 
 @media (max-width: 846px) {
