@@ -70,6 +70,70 @@ html * {
 .date p:first-of-type {
     font-weight: 900;
 }
+.border-center {
+    width: 50px;
+    margin: 5px auto;
+    height: 3px;
+}
+.plan {
+    width: 250px;
+    background-color: hsl(0, 0%, 30%);
+}
+.plan:hover {
+    border: 1px solid white
+}
+.space-for-plans {
+    margin: auto 50px;
+}
+.plan-img {
+    width: 65px;
+    height: 65px;
+}
+.for-image::before {
+    content: "";
+    background-image: url(../images/chess.png);
+    background-position: center;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    opacity: 0.5;
+    z-index: 0;
+}
+.for-image img {
+    z-index: 1;
+}
+.left-border {
+    width: 30px;
+    height: 3px;
+}
+.logos ul {
+    margin: 10px auto;
+}
+.bg-logo {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+}
+.logo1 {
+    background-image: url(../images/hs.jpg);
+}
+.logo2 {
+    background-image: url(../images/barclays.png);
+}
+.logo3 {
+    background-image: url(../images/santander.jpg);
+}
+.logo4 {
+    background-image: url(../images/sc.png);
+}
+.logo5 {
+    background-image: url(../images/halifax.png);
+}
 /* * {
     border: 1px solid greenyellow;
 } */
