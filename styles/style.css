@@ -1,130 +1,158 @@
 html * {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
+
 html {
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
 .bcg-col272 {
-    background-color: #272a31;
+  background-color: #272a31;
 }
+
 .cl272 {
-    color: #272a31;
+  color: #272a31;
 }
+
 .cl524 {
-    color: #ec5242;
+  color: #ec5242;
 }
+
 .bcg-col524 {
-    background-color: #ec5242;
+  background-color: #ec5242;
 }
+
 .cld3 {
-    color: #d3d3d3;
+  color: #d3d3d3;
 }
+
 .bcg-cold3 {
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
+
 .bgimg {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTchZ9riceevldA2IniBAo5Nfkw2z1mWtNZi43gI2Rh3ZstSUB6&usqp=CAU);
-    background-size: cover;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.2;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTchZ9riceevldA2IniBAo5Nfkw2z1mWtNZi43gI2Rh3ZstSUB6&usqp=CAU);
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.2;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .text-with-bcg {
-    font-size: 70px;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/I/918-9qlPA4L.png);
-    -webkit-text-fill-color: transparent;
-    background-size: contain;
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/918-9qlPA4L.png);
+  -webkit-text-fill-color: transparent;
+  background-size: contain;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
 }
-.text-with-bcg:nth-child(4),.text-with-bcg:nth-child(5) {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.text-with-bcg:nth-child(4),
+.text-with-bcg:nth-child(5) {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 [class="ml-5 pt-5"] p {
-    line-height: 65px;
+  line-height: 65px;
 }
+
 .gen-join {
-    max-width: 800px;
+  max-width: 800px;
 }
+
 .join {
-    border: 3px solid white;
+  border: 3px solid white;
 }
+
 [class="join position-relative p-3 bcg-cold3 mb-0"] {
-    z-index: 9;
+  z-index: 9;
 }
+
 .circle {
-    bottom: 90px;
-    right: -40px;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    z-index: 1;
+  bottom: 90px;
+  right: -40px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  z-index: 1;
 }
+
 .date p:first-of-type {
-    font-weight: 900;
+  font-weight: 900;
 }
+
 .border-center {
-    width: 50px;
-    margin: 5px auto;
-    height: 3px;
+  width: 50px;
+  margin: 5px auto;
+  height: 3px;
 }
+
 .plan {
-    width: 250px;
-    background-color: hsl(0, 0%, 30%);
+  width: 250px;
+  background-color: hsl(0, 0%, 30%);
 }
+
 .plan:hover {
-    border: 1px solid white
+  border: 1px solid white;
 }
+
 .space-for-plans {
-    margin: auto 50px;
+  margin: auto 50px;
 }
+
 .plan-img {
-    width: 65px;
-    height: 65px;
+  width: 65px;
+  height: 65px;
 }
+
 .for-image::before {
-    content: "";
-    background-image: url(../images/chess.png);
-    background-position: center;
-    background-size: cover;
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    opacity: 0.5;
-    z-index: 0;
+  content: "";
+  background-image: url(../images/chess.png);
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  opacity: 0.5;
+  z-index: 0;
 }
+
 .for-image img {
-    z-index: 1;
+  z-index: 1;
 }
+
 .left-border {
-    width: 30px;
-    height: 3px;
+  width: 30px;
+  height: 3px;
 }
+
 .more {
-    border: 1px solid #d3d3d3;
+  border: 1px solid #d3d3d3;
 }
+
 .logos ul {
-    margin: 10px auto;
+  margin: 10px auto;
 }
- .bg-logo {
-    width: 200px;
-    height: 150px;
+
+.bg-logo {
+  width: 200px;
+  height: 150px;
 }
-/*.logo1 {
+
+/* .logo1 {
     background-image: url(../images/hs.jpg);
 }
 .logo2 {
@@ -140,47 +168,57 @@ html {
     background-image: url(../images/halifax.png);
 } */
 @media (max-width: 754px) {
-    .circle {
-        top: -40px;
-    }
+  .circle {
+    top: -40px;
+  }
 }
+
 @media (max-width: 767px) {
-    [class="text-with-bcg text-uppercase p-0 m-0"] {
-        font-size: 47px;
-    }
-    .circle {
-        bottom: 140px;
-    }
-    .space-for-plans {
-        margin: 0;
-    }
-    .plan {
-        width: auto;
-        display: flex;
-        flex-direction: row; 
-        justify-content: space-around;
-        align-items: center;
-    }
-    .plan img {
-        margin-left: 15px;
-    }
-    [class="font-weight-bold cl524 mt-2"], .plan p {
-        text-align: left;
-    } 
-    [class="font-weight-bold cl524 mt-2"] {
-        width: 50%;
-        margin: 0 15px;
-    }
-    .plan p {
-        width: 100%;
-    }
+  [class="text-with-bcg text-uppercase p-0 m-0"] {
+    font-size: 47px;
+  }
+
+  .circle {
+    bottom: 140px;
+  }
+
+  .space-for-plans {
+    margin: 0;
+  }
+
+  .plan {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .plan img {
+    margin-left: 15px;
+  }
+
+  [class="font-weight-bold cl524 mt-2"],
+  .plan p {
+    text-align: left;
+  }
+
+  [class="font-weight-bold cl524 mt-2"] {
+    width: 50%;
+    margin: 0 15px;
+  }
+
+  .plan p {
+    width: 100%;
+  }
 }
 
 @media (max-width: 846px) {
-    .circle {
-        bottom: 120px;
-    }
+  .circle {
+    bottom: 120px;
+  }
 }
+
 /* * {
     border: 1px solid greenyellow;
 } */
