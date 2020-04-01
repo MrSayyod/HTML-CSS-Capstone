@@ -49,9 +49,9 @@ html {
 .text-with-bcg {
   font-size: 70px;
   background-image: url(https://images-na.ssl-images-amazon.com/images/I/918-9qlPA4L.png);
-  -webkit-text-fill-color: transparent;
   background-size: contain;
   background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-weight: 900;
