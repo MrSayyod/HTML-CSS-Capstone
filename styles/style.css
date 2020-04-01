@@ -30,6 +30,30 @@ html {
   background-color: #d3d3d3;
 }
 
+.top-nav, [class="float-right mb-0"], .bottom-nav, .bottom-nav-div1-2, .bottom-nav-div1-3, .section-title, .see-whole, .speakers-div, .speaker-info, .hidden-speakers, .logos, .logos-div, footer, .footer-div1, .footer-div1-1, .footer-div2 {
+  display: flex;
+}
+
+.top-nav {
+  justify-content: flex-end;
+}
+
+.bottom-nav, .bottom-nav-div1-2 {
+  justify-content: space-between;
+}
+
+.bottom-nav {
+  align-content: center;
+}
+
+.bottom-nav-div1-1, .more {
+  display: none;
+}
+
+.section-title, .see-whole, .more, .logos {
+  justify-content: center;
+}
+
 .bgimg {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTchZ9riceevldA2IniBAo5Nfkw2z1mWtNZi43gI2Rh3ZstSUB6&usqp=CAU);
   background-size: cover;
@@ -99,7 +123,9 @@ html {
 }
 
 .plan {
-  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: hsl(0, 0%, 30%);
 }
 
@@ -108,12 +134,17 @@ html {
 }
 
 .space-for-plans {
-  margin: auto 50px;
+  display: grid;
+  grid-template: 1fr/ repeat(5, 1fr);
 }
 
 .plan-img {
   width: 65px;
   height: 65px;
+}
+
+.speaker-info, .footer-div1-1, .footer-div2 {
+  flex-direction: column;
 }
 
 .for-image::before {
@@ -143,13 +174,31 @@ html {
   border: 1px solid #d3d3d3;
 }
 
+footer {
+  justify-content: space-around;
+}
 @media (max-width: 754px) {
   .circle {
     top: -40px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .top-nav, .bottom-nav-div1-2, .bottom-nav-div1-3, .hidden-speakers {
+    display: none;
+  }
+
+  .bottom-nav-div1-1, .more {
+    display: flex;
+  }
+
+  .logos-div {
+    display: block;
+  }
+  /* .more {
+    justify-content: center;
+  } */
+
   [class="text-with-bcg text-uppercase p-0 m-0"] {
     font-size: 47px;
   }
@@ -159,15 +208,20 @@ html {
   }
 
   .space-for-plans {
-    margin: 0;
+    display: block;
   }
 
   .plan {
-    width: auto;
+    min-width: auto;
+    max-width: 675px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+  }
+  .plan div {
+    display: flex;
+    width: 100%;
   }
 
   .plan img {
@@ -180,7 +234,7 @@ html {
   }
 
   [class="font-weight-bold cl524 mt-2"] {
-    width: 50%;
+    /* width: 50%; */
     margin: 0 15px;
   }
 
@@ -194,4 +248,6 @@ html {
     bottom: 120px;
   }
 }
-
+/* * {
+  border: 1px solid greenyellow;
+} */
