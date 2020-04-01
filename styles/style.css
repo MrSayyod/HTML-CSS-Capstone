@@ -143,15 +143,6 @@ html {
   border: 1px solid #d3d3d3;
 }
 
-.logos ul {
-  margin: 10px auto;
-}
-
-.bg-logo {
-  max-width: 200px;
-  height: 150px;
-}
-
 @media (max-width: 754px) {
   .circle {
     top: -40px;
@@ -195,16 +186,6 @@ html {
 
   .plan p {
     width: 100%;
-  }
-
-  .logos ul li {
-    margin: 10px auto;
-  }
-  
-  .bg-logo, .bg-logo img {
-    min-width: 160px;
-    max-width: 250px;
-    height: 145px;
   }
 }
 
