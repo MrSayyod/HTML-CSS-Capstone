@@ -148,7 +148,7 @@ html {
 }
 
 .bg-logo {
-  width: 200px;
+  max-width: 200px;
   height: 150px;
 }
 
@@ -196,6 +196,16 @@ html {
   .plan p {
     width: 100%;
   }
+
+  .logos ul li {
+    margin: 10px auto;
+  }
+  
+  .bg-logo, .bg-logo img {
+    min-width: 160px;
+    max-width: 250px;
+    height: 145px;
+  }
 }
 
 @media (max-width: 846px) {
@@ -203,3 +213,4 @@ html {
     bottom: 120px;
   }
 }
+
