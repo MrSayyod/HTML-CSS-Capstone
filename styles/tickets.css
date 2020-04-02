@@ -30,6 +30,38 @@ html * {
   background-color: #f4f5f6;
 }
 
+.top-nav, .top-nav ul, .bottom-nav, .section-title, .step, .step-div, .next, .menu h6, .menu ul, [type="submit"], .footer-div1, .footer-div1-1, .footer-div2, .bottom-nav-div1-2, .bottom-nav-div1-3, .bottom-nav-div1-3 ul {
+  display: flex;
+}
+
+.section-title, .step, .step-div, .tr, .next, .menu h6, [type="submit"], footer {
+  justify-content: center;
+}
+
+.top-nav{
+  justify-content: flex-end;
+}
+
+.bottom-nav, .bottom-nav-div1-2, .bottom-nav-div1-3 ul {
+  justify-content: space-between;
+}
+
+.bottom-nav {
+  align-content: center;
+}
+
+.bottom-nav-div1-1 {
+  display: none;
+}
+.nav-link:hover {
+  color: #ec5242;
+}
+.border-center {
+  width: 50px;
+  margin: 5px auto;
+  height: 3px;
+}
+
 .rhombus {
   width: 10px;
   height: 10px;
@@ -93,7 +125,27 @@ th {
   border: 1px solid #d3d3d3;
 }
 
-@media screen and (max-width: 767px) {
+.menu ul, footer {
+  justify-content: space-around;
+}
+
+.footer-div1-1, .footer-div2 {
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+
+  .top-nav, .bottom-nav-div1-2, .bottom-nav-div1-3 {
+    display: none;
+  }
+
+  .bottom-nav-div1-1 {
+    display: flex;
+  }
+
+  .step {
+    display: block;
+  }
+
   .table,
   .menu {
     width: 540px;

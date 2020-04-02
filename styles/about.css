@@ -26,6 +26,36 @@ html * {
   background-color: #d3d3d3;
 }
 
+.top-nav, .top-nav ul, .bottom-nav, .bottom-nav-div1-2, .bottom-nav-div1-3, .section-title, .past-summits-div, .logos, .logos div, footer, .footer-div1, .footer-div1-1, .footer-div2 {
+  display: flex;
+}
+
+.top-nav {
+  justify-content: flex-end;
+}
+
+.bottom-nav, .bottom-nav-div1-2 {
+  justify-content: space-between;
+}
+
+.bottom-nav {
+  align-content: center;
+}
+
+.bottom-nav-div1-1, .partners {
+  display: none;
+}
+.nav-link:hover {
+  color: #ec5242;
+}
+.section-title, .past-summits-div, .logos {
+  justify-content: center;
+}
+
+.past-summits-div {
+  flex-direction: row;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .text-with-bcg {
@@ -109,6 +139,10 @@ html * {
   cursor: pointer;
 }
 
+.previous-bg div, .footer-div1-1, .footer-div2 {
+  flex-direction: column;
+}
+
 .paris {
   background-image: url(../images/paris.jpg);
 }
@@ -131,6 +165,9 @@ html * {
 .logos ul {
   margin: 10px auto;
 }
+footer {
+  justify-content: space-around;
+}
 
 .bg-logo {
   width: 200px;
@@ -144,7 +181,23 @@ html * {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .top-nav, .bottom-nav-div1-2, .bottom-nav-div1-3 {
+    display: none;
+  }
+
+  .bottom-nav-div1-1 {
+    display: flex;
+  }
+
+  .past-summits-div {
+    flex-direction: column;
+  }
+
+  .partners, .logos div {
+    display: block;
+  }
+
   [class="text-with-bcg cl524 text-uppercase p-0 m-0"] {
     font-size: 47px;
   }

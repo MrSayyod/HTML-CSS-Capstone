@@ -50,6 +50,12 @@ html {
   display: none;
 }
 
+.nav-link:hover {
+  color: #ec5242;
+}
+.dropdown-toggle::after {
+  visibility: hidden;
+}
 .section-title, .see-whole, .more, .logos {
   justify-content: center;
 }
