@@ -30,19 +30,43 @@ html * {
   background-color: #f4f5f6;
 }
 
-.top-nav, .top-nav ul, .bottom-nav, .section-title, .step, .step-div, .next, .menu h6, .menu ul, [type="submit"], .footer-div1, .footer-div1-1, .footer-div2, .bottom-nav-div1-2, .bottom-nav-div1-3, .bottom-nav-div1-3 ul {
+.top-nav,
+.top-nav ul,
+.bottom-nav,
+.section-title,
+.step,
+.step-div,
+.next,
+.menu h6,
+.menu ul,
+[type="submit"],
+.footer-div1,
+.footer-div1-1,
+.footer-div2,
+.bottom-nav-div1-2,
+.bottom-nav-div1-3,
+.bottom-nav-div1-3 ul {
   display: flex;
 }
 
-.section-title, .step, .step-div, .tr, .next, .menu h6, [type="submit"], footer {
+.section-title,
+.step,
+.step-div,
+.tr,
+.next,
+.menu h6,
+[type="submit"],
+footer {
   justify-content: center;
 }
 
-.top-nav{
+.top-nav {
   justify-content: flex-end;
 }
 
-.bottom-nav, .bottom-nav-div1-2, .bottom-nav-div1-3 ul {
+.bottom-nav,
+.bottom-nav-div1-2,
+.bottom-nav-div1-3 ul {
   justify-content: space-between;
 }
 
@@ -53,9 +77,11 @@ html * {
 .bottom-nav-div1-1 {
   display: none;
 }
+
 .nav-link:hover {
   color: #ec5242;
 }
+
 .border-center {
   width: 50px;
   margin: 5px auto;
@@ -125,16 +151,20 @@ th {
   border: 1px solid #d3d3d3;
 }
 
-.menu ul, footer {
+.menu ul,
+footer {
   justify-content: space-around;
 }
 
-.footer-div1-1, .footer-div2 {
+.footer-div1-1,
+.footer-div2 {
   flex-direction: column;
 }
-@media screen and (max-width: 768px) {
 
-  .top-nav, .bottom-nav-div1-2, .bottom-nav-div1-3 {
+@media screen and (max-width: 768px) {
+  .top-nav,
+  .bottom-nav-div1-2,
+  .bottom-nav-div1-3 {
     display: none;
   }
 
@@ -144,6 +174,7 @@ th {
 
   .step {
     display: block;
+    border-radius: 10px;
   }
 
   .table,
@@ -154,9 +185,5 @@ th {
   .for-tickets,
   .for-lunch {
     width: 540px;
-  }
-
-  .step {
-    border-radius: 10px;
   }
 }

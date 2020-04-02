@@ -30,7 +30,22 @@ html {
   background-color: #d3d3d3;
 }
 
-.top-nav, [class="float-right mb-0"], .bottom-nav, .bottom-nav-div1-2, .bottom-nav-div1-3, .section-title, .see-whole, .speakers-div, .speaker-info, .hidden-speakers, .logos, .logos-div, footer, .footer-div1, .footer-div1-1, .footer-div2 {
+.top-nav,
+[class="float-right mb-0"],
+.bottom-nav,
+.bottom-nav-div1-2,
+.bottom-nav-div1-3,
+.section-title,
+.see-whole,
+.speakers-div,
+.speaker-info,
+.hidden-speakers,
+.logos,
+.logos-div,
+footer,
+.footer-div1,
+.footer-div1-1,
+.footer-div2 {
   display: flex;
 }
 
@@ -38,7 +53,8 @@ html {
   justify-content: flex-end;
 }
 
-.bottom-nav, .bottom-nav-div1-2 {
+.bottom-nav,
+.bottom-nav-div1-2 {
   justify-content: space-between;
 }
 
@@ -46,17 +62,23 @@ html {
   align-content: center;
 }
 
-.bottom-nav-div1-1, .more {
+.bottom-nav-div1-1,
+.more {
   display: none;
 }
 
 .nav-link:hover {
   color: #ec5242;
 }
+
 .dropdown-toggle::after {
   visibility: hidden;
 }
-.section-title, .see-whole, .more, .logos {
+
+.section-title,
+.see-whole,
+.more,
+.logos {
   justify-content: center;
 }
 
@@ -149,7 +171,9 @@ html {
   height: 65px;
 }
 
-.speaker-info, .footer-div1-1, .footer-div2 {
+.speaker-info,
+.footer-div1-1,
+.footer-div2 {
   flex-direction: column;
 }
 
@@ -183,6 +207,7 @@ html {
 footer {
   justify-content: space-around;
 }
+
 @media (max-width: 754px) {
   .circle {
     top: -40px;
@@ -190,17 +215,22 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .top-nav, .bottom-nav-div1-2, .bottom-nav-div1-3, .hidden-speakers {
+  .top-nav,
+  .bottom-nav-div1-2,
+  .bottom-nav-div1-3,
+  .hidden-speakers {
     display: none;
   }
 
-  .bottom-nav-div1-1, .more {
+  .bottom-nav-div1-1,
+  .more {
     display: flex;
   }
 
   .logos-div {
     display: block;
   }
+
   /* .more {
     justify-content: center;
   } */
@@ -225,6 +255,7 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
+
   .plan div {
     display: flex;
     width: 100%;
@@ -254,6 +285,7 @@ footer {
     bottom: 120px;
   }
 }
+
 /* * {
   border: 1px solid greenyellow;
 } */

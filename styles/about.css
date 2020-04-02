@@ -26,7 +26,19 @@ html * {
   background-color: #d3d3d3;
 }
 
-.top-nav, .top-nav ul, .bottom-nav, .bottom-nav-div1-2, .bottom-nav-div1-3, .section-title, .past-summits-div, .logos, .logos div, footer, .footer-div1, .footer-div1-1, .footer-div2 {
+.top-nav,
+.top-nav ul,
+.bottom-nav,
+.bottom-nav-div1-2,
+.bottom-nav-div1-3,
+.section-title,
+.past-summits-div,
+.logos,
+.logos div,
+footer,
+.footer-div1,
+.footer-div1-1,
+.footer-div2 {
   display: flex;
 }
 
@@ -34,7 +46,8 @@ html * {
   justify-content: flex-end;
 }
 
-.bottom-nav, .bottom-nav-div1-2 {
+.bottom-nav,
+.bottom-nav-div1-2 {
   justify-content: space-between;
 }
 
@@ -42,13 +55,18 @@ html * {
   align-content: center;
 }
 
-.bottom-nav-div1-1, .partners {
+.bottom-nav-div1-1,
+.partners {
   display: none;
 }
+
 .nav-link:hover {
   color: #ec5242;
 }
-.section-title, .past-summits-div, .logos {
+
+.section-title,
+.past-summits-div,
+.logos {
   justify-content: center;
 }
 
@@ -139,7 +157,9 @@ html * {
   cursor: pointer;
 }
 
-.previous-bg div, .footer-div1-1, .footer-div2 {
+.previous-bg div,
+.footer-div1-1,
+.footer-div2 {
   flex-direction: column;
 }
 
@@ -165,6 +185,7 @@ html * {
 .logos ul {
   margin: 10px auto;
 }
+
 footer {
   justify-content: space-around;
 }
@@ -182,7 +203,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .top-nav, .bottom-nav-div1-2, .bottom-nav-div1-3 {
+  .top-nav,
+  .bottom-nav-div1-2,
+  .bottom-nav-div1-3 {
     display: none;
   }
 
@@ -194,7 +217,8 @@ footer {
     flex-direction: column;
   }
 
-  .partners, .logos div {
+  .partners,
+  .logos div {
     display: block;
   }
 
